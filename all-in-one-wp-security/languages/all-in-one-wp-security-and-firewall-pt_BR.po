@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: All In One WP Security v4.0.7\n"
 "POT-Creation-Date: 2016-04-14 11:14-0300\n"
-"PO-Revision-Date: 2016-04-18 13:26-0300\n"
+"PO-Revision-Date: 2017-11-30 21:47-0200\n"
 "Last-Translator: Gilvanilson Santos <gilvanilson@gmail.com>\n"
 "Language-Team: GVSANTOS Group <grupogvsantos@gmail.com>\n"
 "Language: pt_BR\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 2.0.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
 "X-Poedit-Basepath: .\n"
@@ -317,7 +317,7 @@ msgstr "Lista branca de login"
 
 #: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-brute-force-menu.php:30
 msgid "Honeypot"
-msgstr "Pote de mel"
+msgstr "Honeypot (Pote de mel)"
 
 #: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-brute-force-menu.php:106
 msgid "Please enter a value for your login page slug."
@@ -722,33 +722,33 @@ msgstr "Exemplo 4: 4102:0:3ea6:79fd:b:46f8:230f:bb05"
 msgid "Example 5: 2205:0:1ca2:810d::"
 msgstr "Exemplo 5: 2205:0:1ca2:810d::"
 
-#: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-brute-force-menu.php:743
-msgid "This feature allows you to add a special hidden \"honeypot\" field on the WordPress login page. This will only be visible to robots and not humans."
-msgstr "Esse recurso permite que você adicione um campo oculto especial \"pote de mel\" na página de login do WordPress. Isso só será visível para os robôs e não seres humanos."
-
-#: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-brute-force-menu.php:744
-msgid "Since robots usually fill in every input field from a login form, they will also submit a value for the special hidden honeypot field."
-msgstr "Desde que os robôs geralmente preencher cada campo de entrada de um formulário de login, eles também apresentará um valor para o campo de pote de mel oculto especial."
-
-#: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-brute-force-menu.php:745
-msgid "The way honeypots work is that a hidden field is placed somewhere inside a form which only robots will submit. If that field contains a value when the form is submitted then a robot has most likely submitted the form and it is consequently dealt with."
-msgstr "A maneira de trabalho de potes de mel é que um campo oculto é colocado em algum lugar dentro de uma forma que apenas os robôs irão apresentar. Se esse campo contém um valor quando o formulário é enviado, em seguida, um robô muito provavelmente apresentou a forma e isso consequentemente é tratado com."
-
 #: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-brute-force-menu.php:746
 msgid "Therefore, if the plugin detects that this field has a value when the login form is submitted, then the robot which is attempting to login to your site will be redirected to its localhost address - http://127.0.0.1."
 msgstr "Portanto, se o plugin detecta que este campo tem um valor quando o formulário de login é enviado, então o robô que está tentando fazer o login para o seu site será redirecionado para seu endereço localhost - http://127.0.0.1."
 
 #: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-brute-force-menu.php:752
 msgid "Login Form Honeypot Settings"
-msgstr "Configurações do formulário de login pote de mel"
+msgstr "Configurações do formulário de login honeypot (pote de mel)"
 
 #: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-brute-force-menu.php:763
 msgid "Enable Honeypot On Login Page"
-msgstr "Habilitar pote de mel na página de login"
+msgstr "Habilitar honeypot (pote de mel) na página de login"
 
-#: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-brute-force-menu.php:766
+#: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-brute-force-menu.php:765
 msgid "Check this if you want to enable the honeypot feature for the login page"
-msgstr "Marque esta opção se você deseja ativar o recurso pote de mel para a página de login"
+msgstr "Marque esta opção se você deseja ativar o recurso honeypot (pote de mel) para a página de login"
+
+#: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-brute-force-menu.php:799
+msgid "This feature allows you to add a special hidden \"honeypot\" field on the WordPress login page. This will only be visible to robots and not humans."
+msgstr "Esse recurso permite que você adicione um campo oculto especial \"pote de mel\" (honeypot) na página de login do WordPress. Isso só será visível para os robôs e não para os humanos."
+
+#: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-brute-force-menu.php:800
+msgid "Since robots usually fill in every input field from a login form, they will also submit a value for the special hidden honeypot field."
+msgstr "Desde que os robôs geralmente preencher cada campo de entrada de um formulário de login, eles também apresentará um valor para o campo de honeypot (pote de mel) oculto especial."
+
+#: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-brute-force-menu.php:801
+msgid "The way honeypots work is that a hidden field is placed somewhere inside a form which only robots will submit. If that field contains a value when the form is submitted then a robot has most likely submitted the form and it is consequently dealt with."
+msgstr "A maneira de trabalho de honeypots (potes de mel) é que um campo oculto é colocado em algum lugar dentro de uma forma que apenas os robôs irão apresentar. Se esse campo contém um valor quando o formulário é enviado, em seguida, um robô muito provavelmente apresentou a forma e isso consequentemente é tratado com."
 
 #: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-dashboard-menu.php:26
 msgid "System Info"
@@ -2680,6 +2680,42 @@ msgstr "Verificação núncio falhou para operação de exclusão de registro de
 msgid "Nonce check failed for unblock IP operation!"
 msgstr "Verificação núncio falhou para operação de desbloqueio de IP!"
 
+#: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-list-registered-users.php:66
+msgid "User ID"
+msgstr "ID do Usuário"
+
+#: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-list-registered-users.php:67
+msgid "Login Name"
+msgstr "Login"
+
+#: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-list-registered-users.php:68
+msgid "Email"
+msgstr "E-mail"
+
+#: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-list-registered-users.php:69
+msgid "Register Date"
+msgstr "Data de Registro"
+
+#: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-list-registered-users.php:70
+msgid "Account Status"
+msgstr "Status da Conta"
+
+#: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-list-registered-users.php:71
+msgid "IP Address"
+msgstr "Endereço IP"
+
+#: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-list-registered-users.php:89
+msgid "Approve"
+msgstr "Aprovar"
+
+#: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-list-registered-users.php:90
+msgid "Delete"
+msgstr "Deletar"
+
+#: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-list-registered-users.php:91
+msgid "Block IP"
+msgstr "Bloquear IP"
+
 #: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-list-registered-users.php:132
 #: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-list-registered-users.php:162
 msgid "Your account is now active"
@@ -3234,7 +3270,7 @@ msgstr "Bloquear comentários spambot"
 
 #: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-spam-menu.php:147
 msgid "A large portion of WordPress blog comment SPAM is mainly produced by automated bots and not necessarily by humans. "
-msgstr "Uma grande parcela de comentário de blog WordPress SPAM é produzida principalmente por robôs automatizados e não necessariamente por seres humanos."
+msgstr "Uma grande parcela de comentário de blog WordPress SPAM é produzida principalmente por robôs automatizados e não necessariamente por seres humanos. "
 
 #: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-spam-menu.php:148
 msgid "This feature will greatly minimize the useless and unecessary traffic and load on your server resulting from SPAM comments by blocking all comment requests which do not originate from your domain."
@@ -3509,7 +3545,7 @@ msgstr "Nenhuma ação necessária! "
 
 #: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-user-accounts-menu.php:141
 msgid "Your site does not have any account which uses the default \"admin\" username. "
-msgstr "Seu site não tem qualquer conta que usa o nome de usuário padrão \"admin\"."
+msgstr "Seu site não tem qualquer conta que usa o nome de usuário padrão \"admin\". "
 
 #: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-user-accounts-menu.php:142
 msgid "This is good security practice."
@@ -3617,11 +3653,11 @@ msgstr "Falha na operação de atualização do banco de dados da conta de usuá
 
 #: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-user-accounts-menu.php:296
 msgid "You entered an invalid username. Please enter another value. "
-msgstr "Você digitou um nome de usuário inválido. Por favor, digite outro valor."
+msgstr "Você digitou um nome de usuário inválido. Por favor, digite outro valor. "
 
 #: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-user-accounts-menu.php:300
 msgid "Please enter a value for your username. "
-msgstr "Por favor, digite o seu nome de usuário."
+msgstr "Por favor, digite o seu nome de usuário. "
 
 #: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-user-accounts-menu.php:307
 msgid "Username Successfully Changed!"
@@ -3870,6 +3906,10 @@ msgstr "Aprovação manual"
 msgid "Registration Captcha"
 msgstr "Captcha em registro"
 
+#: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-user-registration-menu.php:26
+msgid "Registration Honeypot"
+msgstr "Registro Honeypot"
+
 #: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-user-registration-menu.php:113
 msgid "User Registration Settings"
 msgstr "Configurações de registro de usuários"
@@ -3933,6 +3973,30 @@ msgstr "Habilitar captcha na página de registro"
 #: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-user-registration-menu.php:229
 msgid "Check this if you want to insert a captcha form on the WordPress user registration page (if you allow user registration)."
 msgstr "Marque esta opção se você deseja inserir um formulário captcha na página de registro de usuário do WordPress (se você permitir o registo do usuário)."
+
+#: ../../plugins/all-in-one-wp-security-and-firewall/admin/wwp-security-user-registration-menu.php:273
+msgid "This feature allows you to add a special hidden \"honeypot\" field on the WordPress registration page. This will only be visible to robots and not humans."
+msgstr "Esse recurso permite que você adicione um campo escondido especial \"honeypot\" na página de registro do WordPress. Isso só será visível para robôs e não humanos."
+
+#: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-user-registration-menu.php:274
+msgid "Since robots usually fill in every input field from a registration form, they will also submit a value for the special hidden honeypot field."
+msgstr "Uma vez que os robôs geralmente preenchem todos os campos de entrada de um formulário de registro, eles também enviarão um valor para o campo de honeypot (pote de mel) escondido especial."
+
+#: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-user-registration-menu.php:276
+msgid "Therefore, if the plugin detects that this field has a value when the registration form is submitted, then the robot which is attempting to register on your site will be redirected to its localhost address - http://127.0.0.1."
+msgstr "Portanto, se o plugin detecta que esse campo tem um valor quando o formulário de registro é enviado, o robô que está tentando se registrar no seu site será redirecionado para seu endereço localhost - http://127.0.0.1."
+
+#: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-user-registration-menu.php:282
+msgid "Registration Form Honeypot Settings"
+msgstr "Configuração do Formulário de Registro Honeypot"
+
+#: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-user-registration-menu.php:293
+msgid "Enable Honeypot On Registration Page"
+msgstr "Configuração do Formulário de Registro Honeypot"
+
+#: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-user-registration-menu.php:296
+msgid "Check this if you want to enable the honeypot feature for the registration page"
+msgstr "Marque se você deseja habilitar o recurso honeypot para a página de registro"
 
 #: ../../plugins/all-in-one-wp-security-and-firewall/admin/wp-security-whois-menu.php:22
 msgid "WhoIS Lookup"
@@ -4052,7 +4116,7 @@ msgstr "Básico"
 
 #: ../../plugins/all-in-one-wp-security-and-firewall/classes/grade-system/wp-security-feature-item.php:31
 msgid "Intermediate"
-msgstr "Intermediario"
+msgstr "Intermediário"
 
 #: ../../plugins/all-in-one-wp-security-and-firewall/classes/grade-system/wp-security-feature-item.php:34
 msgid "Advanced"
@@ -4391,11 +4455,11 @@ msgstr "Nome de usuário: "
 
 #: ../../plugins/all-in-one-wp-security-and-firewall/classes/wp-security-user-login.php:273
 msgid "IP Address: "
-msgstr "Endereço IP:"
+msgstr "Endereço IP: "
 
 #: ../../plugins/all-in-one-wp-security-and-firewall/classes/wp-security-user-login.php:274
 msgid "IP Range: "
-msgstr "Faixa IP:"
+msgstr "Faixa IP: "
 
 #: ../../plugins/all-in-one-wp-security-and-firewall/classes/wp-security-user-login.php:275
 msgid "Log into your site's WordPress administration panel to see the duration of the lockout or to unlock the user."
@@ -4407,7 +4471,7 @@ msgstr "Desbloquear solicitação de notificação"
 
 #: ../../plugins/all-in-one-wp-security-and-firewall/classes/wp-security-user-login.php:353
 msgid "You have requested for the account with email address "
-msgstr "Você tenha solicitado a conta com endereço de e-mail"
+msgstr "Você tenha solicitado a conta com endereço de e-mail "
 
 #: ../../plugins/all-in-one-wp-security-and-firewall/classes/wp-security-user-login.php:354
 msgid "Unlock link: "
